@@ -17,3 +17,4 @@ It is realistically possible to build an application using the Qt Framework for 
 * Optional but recommended:
   * vtk (for 3D visualization) — brew install vtk
   * Open3D (alternative) — pip install open3d
+
