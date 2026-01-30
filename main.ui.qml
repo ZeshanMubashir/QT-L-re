@@ -13,3 +13,4 @@ Rectangle {
         color: '#e26565'
     }
 }
+    
