@@ -1,5 +1,11 @@
 import os
 from fastmcp import FastMCP
+import sys
+import subprocess
+import signal
+import P5HY
+import time 
+
 
 # Initialize FastMCP server
 mcp = FastMCP("Qt-Helper")
