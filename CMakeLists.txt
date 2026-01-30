@@ -8,10 +8,10 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Find Qt if you plan to use it
-# find_package(Qt6 COMPONENTS Core Widgets REQUIRED)
+find_package(Qt6 COMPONENTS Core Widgets REQUIRED)
 
 # Add an executable if you have source files
-# add_executable(${PROJECT_NAME} main.cpp)
+add_executable(${PROJECT_NAME} main.cpp)
 
 # Link Qt libraries if using Qt
-# target_link_libraries(${PROJECT_NAME} Qt6::Core Qt6::Widgets)
+target_link_libraries(${PROJECT_NAME} Qt6::Core Qt6::Widgets)
